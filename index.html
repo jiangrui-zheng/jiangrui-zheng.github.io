@@ -1,113 +1,168 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-
 <html lang="en">
 <head>
-  <title>John Doe</title>
+  <title>Jiangrui Zheng</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap (kept for grid only) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      background: white;
+      color: #000;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-top: 30px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 4px;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .left-column {
+      font-size: 14px;
+    }
+
+    .profile-img {
+      width: 100%;
+      max-width: 180px;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .nav-top {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
+
 <body>
 
+<div class="container" style="max-width:1100px;">
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
+  <!-- Top navigation -->
+  <div class="nav-top">
+    <a href="index.html">Home</a> |
+    <a href="#publications">Publications</a> |
+    <a href="Resume Zheng Jiangrui.pdf" target="_blank">CV</a>
+  </div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
-    <div class="container">
+  <div class="row">
 
-        <div class="row">
+    <!-- Left column -->
+    <div class="col-md-3 left-column">
 
-            <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                
-                <!-- Main Image -->
-                <img class="img-responsive" src="photo.gif" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing <a href="#">elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-            </div> 
+      <img src="jiangrui_zheng.jpg" class="profile-img" alt="Jiangrui Zheng">
 
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>John Doe</b></div><br>
-                <p><b>john at doe.com</b><br>
-                <p>Random Department<br>
-                University of Randomness<br>
-                Street<br>
-                City <br>
-                Country<br>
-                </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
-            </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
-                </ul>
-            
-                <strong>Technical Reports</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
-                </ul>
-            </div>
+      <div class="name">Jiangrui Zheng</div>
+      Ph.D. Student in Computer Science<br>
+      Stevens Institute of Technology<br><br>
 
-            
-        </div>
+      <b>Email:</b><br>
+      jzheng36@stevens.edu<br><br>
+
+      <b>Affiliation:</b><br>
+      Computer Science Department<br>
+      Stevens Institute of Technology<br>
+      Hoboken, NJ, USA<br><br>
+
+      <b>Links:</b><br>
+      <a href="https://scholar.google.com/citations?user=gpIwBgMAAAAJ&hl=zh-CN&oi=ao" target="_blank">Google Scholar</a><br>
+      <a href="https://www.linkedin.com/in/jiangrui-zheng-34b718209/" target="_blank">LinkedIn</a><br>
+      <a href="https://github.com/jiangrui-zheng" target="_blank">GitHub</a><br>
+
+    </div>
+
+    <!-- Right column -->
+    <div class="col-md-9">
+
+      <h2>About Me</h2>
+
+      <p>
+        I am a Computer Science PhD student at
+        <a href="https://www.stevens.edu/">Stevens Institute of Technology</a>,
+        specializing in large language models for security and software engineering.
+        advised by
+      <a href="https://liususan091219.github.io/" target="_blank">
+        Prof. Xueqing (Susan) Liu
+      </a>.
+        My research focuses on building practical AI systems that improve vulnerability
+        analysis, automate security workflows, and evaluate the reliability of
+        state-of-the-art LLMs.
+      </p>
+
+      <p>
+        My work includes developing LLM-based agents for verifying security vulnerability
+        reports, automated red-teaming pipelines for testing hate-speech defenses,
+        and test-case generators for model management on HuggingFace Hub.
+        I have also worked on NER-driven automation for handling software versions
+        in vulnerability reports and empirical studies on AI-assisted code review
+        and patch retrieval.
+      </p>
+
+      <p>
+        I aim to build trustworthy intelligent systems that strengthen software
+        security at scale. My research has been published at NAACL and IEEE BigData
+        workshops, and I have contributed to multiple projects on patch tracing,
+        explainable retrieval, and analyzing risks in AI-generated code.
+      </p>
+
+      <h2 id="publications">Publications</h2>
+
+      <h3>Workshop & Conference Papers</h3>
+    <ul>
+      <li>
+        <b>HateModerate: Testing Hate Speech Detectors against Content Moderation Policies</b><br>
+        Jiangrui Zheng, Xueqing Liu, Guanqun Yang, et al.<br>
+        <i>Findings of the Association for Computational Linguistics (NAACL 2024)</i>,
+        Mexico City, Mexico, June 2024.
+      </li>
+
+      <li>
+        <b>From Reviewers' Lens: Understanding Bug Bounty Report Invalid Reasons with LLMs</b><br>
+        Jiangrui Zheng, Yingming Zhou, Ali Abdullah Ahmad, Hanqing Yao, Xueqing Liu.<br>
+        <i>Workshop on Secure and Safe AI Agents for Big Data Infrastructure (S2AI @ IEEE BigData 2025)</i>.
+      </li>
+    </ul>
 
 
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
-</body>
+  </div>
 
+  <hr>
+
+  <div style="font-size:12px; color:#888;">
+    Template adapted from <a href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
+  </div>
+
+</div>
+
+</body>
 </html>
